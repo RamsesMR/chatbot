@@ -1,0 +1,188 @@
+{
+    "intents": [
+        {
+            "tag": "saludos",
+            "pregunta": [
+                "hola", "buenos dias", "buenas tardes", "buenas noches", 
+                "como estas", "hola que tal", "hola como te va", 
+                "hola que tal todo", "saludos", "que tal estas"
+            ],
+            "respuesta": [
+                "¡Hola! ¿Cómo te puedo ayudar hoy?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "pregunta": [
+                "adios", "hasta luego", "nos vemos", "chao", "bye", 
+                "me voy", "hasta pronto", "que tengas buen dia", 
+                "me despido", "nos vemos pronto"
+            ],
+            "respuesta": [
+                "¡Hasta pronto! Que tengas un buen día."
+            ]
+        },
+        {
+            "tag": "agradece",
+            "pregunta": [
+                "gracias", "muchas gracias", "te agradezco mucho", 
+                "muy util", "genial gracias", "mil gracias", 
+                "agradezco tu ayuda", "que bien gracias", 
+                "gracias por la informacion", "estoy muy agradecido"
+            ],
+            "respuesta": [
+                "¡Me alegra haberte ayudado!"
+            ]
+        },
+        {
+            "tag": "informacion_cursos_gratuitos",
+            "pregunta": [
+                "los cursos son gratuitos", "formacion gratuita", "cursos sin coste", 
+                "hay cursos subvencionados", "cursos gratis", 
+                "tienen cursos sin pagar", "formacion sin coste"
+            ],
+            "respuesta": [
+                "Los cursos ofrecidos por el SEPE son completamente gratuitos."
+            ]
+        },
+        {
+            "tag": "evaluacion",
+            "pregunta": [
+                "hay examenes en los cursos", "como se evaluan los cursos", 
+                "evaluacion en los cursos", "pruebas en los cursos", 
+                "tendre que hacer evaluaciones", "como es el proceso de evaluacion"
+            ],
+            "respuesta": [
+                "Las evaluaciones pueden ser presenciales o virtuales, según el curso."
+            ]
+        },
+        {
+            "tag": "becas",
+            "pregunta": [
+                "existen becas para los cursos", "ayudas economicas para cursos", 
+                "hay subvenciones para cursos", "beneficios economicos para estudiar", 
+                "subsidios para formacion", "puedo recibir ayuda financiera para un curso"
+            ],
+            "respuesta": [
+                "Existen ayudas económicas disponibles para ciertos cursos del SEPE."
+            ]
+        },
+        {
+            "tag": "asistencia_cursos_sepe",
+            "pregunta": [
+                "es obligatoria la asistencia a los cursos del SEPE", 
+                "asistencia obligatoria en los cursos", 
+                "tengo que asistir a todas las clases", 
+                "politicas de asistencia en los cursos", 
+                "que pasa si falto a un curso", "puedo faltar a algunas clases"
+            ],
+            "respuesta": [
+                "La asistencia es muy importante en los cursos del SEPE. Las políticas dependen del curso específico, pero la asistencia regular es clave para aprovechar al máximo la formación."
+            ]
+        },
+        {
+            "tag": "equivalencia_certificados",
+            "pregunta": [
+                "los certificados tienen validez a nievl nacional", 
+                "equivalencia de certificados de profesionalidad", 
+                "puedo usar mi certificado en otras partes de España", 
+                "los certificados son reconocidos en todo el pais", 
+                "certificacion oficial en competencias profesionales"
+            ],
+            "respuesta": [
+                "Los certificados de profesionalidad tienen validez en todo el territorio nacional y están reconocidos por el Ministerio de Trabajo. Algunos también pueden ser reconocidos en Europa."
+            ]
+        },
+        {
+            "tag": "faltas_en_cursos_sepe",
+            "pregunta": [
+                "cuantas faltas puedo tener en el curso", 
+                "consecuencias por faltar a los cursos", 
+                "me penalizan si falto", 
+                "que pasa si no asisto al curso", 
+                "limite de inasistencias en los cursos"
+            ],
+            "respuesta": [
+                "Superar el límite de inasistencias puede resultar en la expulsión del curso y la pérdida de ayudas asociadas."
+            ]
+        },
+        {
+            "tag": "requisitos_inscripcion_sepe",
+            "pregunta": [
+                "que documentos necesito para inscribirme", 
+                "requisitos de inscripcion para los cursos", 
+                "como puedo apuntarme a los cursos", 
+                "que necesito para inscribirme", 
+                "pasos para inscribirse en cursos del SEPE"
+            ],
+            "respuesta": [
+                "Para inscribirte necesitarás el DNI o NIE, la tarjeta de demandante de empleo y cumplir con los requisitos del curso. Algunos cursos online requieren software específico."
+            ]
+        },
+        {
+            "tag": "cursos_fuera_de_madrid",
+            "pregunta": [
+                "puedo hacer un curso del SEPE desde otra ciudad", 
+                "cursos del SEPE fuera de Madrid", 
+                "es posible hacer el curso a distancia", 
+                "cursos del SEPE online para personas fuera de Madrid", 
+                "puedo realizar cursos del SEPE si no vivo en Madrid"
+            ],
+            "respuesta": [
+                "Es posible realizar un curso del SEPE impartido en Madrid desde fuera, pero algunos cursos requieren que los participantes estén empadronados en la comunidad autónoma."
+            ]
+        },
+        {
+            "tag": "cursos_para_trabajadores_activos",
+            "pregunta": [
+                "pueden los trabajadores hacer cursos", 
+                "cursos para trabajadores en activo", 
+                "formacion continua para empleados", 
+                "puedo hacer un curso si estoy trabajando", 
+                "cursos para personas empleadas"
+            ],
+            "respuesta": [
+                "Sí, los trabajadores en activo pueden realizar cursos del SEPE para mejorar sus habilidades."
+            ]
+        },
+        {
+            "tag": "homologacion_estudios_extranjeros",
+            "pregunta": [
+                "como homologar un titulo extranjero", 
+                "validacion de estudios en el extranjero", 
+                "homologacion de estudios fuera de España", 
+                "como validar un titulo extranjero", 
+                "proceso para homologar estudios en España"
+            ],
+            "respuesta": [
+                "Para que tus estudios extranjeros sean reconocidos en España, es necesario someterlos a un proceso de homologación que valida que cumplen con los estándares del sistema educativo español."
+            ]
+        },
+        {
+            "tag": "validacion_certificado_extranjero",
+            "pregunta": [
+                "es valido un certificado fuera de España", 
+                "validacion de certificados internacionales", 
+                "puedo usar mi certificado en otro pais", 
+                "certificacion profesional en el extranjero", 
+                "mi certificado es reconocido internacionalmente"
+            ],
+            "respuesta": [
+                "La validez de un certificado de profesionalidad fuera de España depende de acuerdos de convalidación. Los certificados de instituciones reconocidas tienen una amplia aceptación internacional."
+            ]
+        },
+        {
+            "tag": "horarios_cursos_sepe",
+            "pregunta": [
+                "cual es el horario de los cursos", 
+                "horario de las clases en los cursos", 
+                "a que hora son las clases", 
+                "cuanto duran los cursos del SEPE", 
+                "los cursos tienen horario fijo"
+            ],
+            "respuesta": [
+                "Los cursos del SEPE tienen un horario asignado que debe respetarse. Asegúrate de verificar el horario específico del curso en el que te inscribes."
+            ]
+        }
+    ]
+}
