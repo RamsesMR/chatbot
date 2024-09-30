@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 from chatbox import Chatbot
 import os
 import tensorflow as tf
+import gunicorn
 import spacy
 
 

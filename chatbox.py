@@ -13,7 +13,7 @@ except OSError:
 class Chatbot:
     def __init__(self):
         # Inicializar el modelo SentenceTransformer
-        self.modelo = SentenceTransformer('paraphrase-multilingual-MiniLM-L12-v2')
+        self.modelo = SentenceTransformer('paraphrase-MiniLM-L3-v2')
         
         # Cargar el archivo JSON de preguntas y respuestas
         try:
